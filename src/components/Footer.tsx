@@ -1,4 +1,3 @@
-
 import { Github, Linkedin, Twitter, Mail } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
@@ -23,7 +22,7 @@ const Footer = () => {
     },
     {
       name: "Email",
-      url: "mailto:contact@ronakmunjapara.com",
+      url: "mailto:munjapararonak1@gmail.com",
       icon: <Mail className="h-4 w-4" />,
     },
   ];
