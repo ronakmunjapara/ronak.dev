@@ -73,7 +73,7 @@ const Contact = () => {
     },
     {
       name: "Email",
-      url: "mailto:contact@ronakmunjapara.com",
+      url: "mailto:munjapararonak1@gmail.com",
       icon: <Mail className="h-5 w-5" />,
     },
   ];
@@ -175,7 +175,7 @@ const Contact = () => {
             <div>
               <h3 className="text-xl font-semibold mb-4">Location</h3>
               <p className="text-muted-foreground">
-                Based in Mumbai, India. Open to remote work and collaborations worldwide.
+                Based in Gandhinagar(Gujarat), India. Open to remote work and collaborations worldwide.
               </p>
             </div>
 
