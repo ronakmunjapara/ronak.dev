@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/components/ui/use-toast";
 import { Separator } from "@/components/ui/separator";
-import { Github, Mail, Linkedin, Twitter } from "lucide-react";
+import { Github, Mail, Linkedin, Twitter, AlignCenter } from "lucide-react";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -86,6 +86,11 @@ const Contact = () => {
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Have a project in mind or want to collaborate? Feel free to reach out!
           </p>
+          <div className="text-center">
+           <div className="flex items-center gap-2 text-xs text-muted-foreground mt-2">
+  
+  
+</div></div>
           <Separator className="mt-8 max-w-md mx-auto bg-primary/30" />
         </div>
 
@@ -150,6 +155,12 @@ const Contact = () => {
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </Button>
               </form>
+              <p className="text-center text-xs text-muted-foreground mt-2">
+  🔄 Real-time automation via <span className="font-medium text-primary">n8n + AI</span>. I get your message instantly on Telegram!
+</p>
+
+             
+
             </CardContent>
           </Card>
 
@@ -187,6 +198,20 @@ const Contact = () => {
               </div>
             </div>
           </div>
+          <div className="mt-6 text-center">
+  <h4 className="text-sm font-semibold text-muted-foreground mb-2">
+    🔄 Real-Time Flow
+  </h4>
+  <img
+    src="/automation-flow.png"
+    alt="n8n AI to Telegram flow"
+    className="mx-auto w-full max-w-md rounded-xl border border-muted/30 shadow-sm"
+  />
+  <p className="text-xs text-muted-foreground mt-2">
+    This form is connected to a live <span className="font-semibold text-primary">n8n automation</span> that instantly forwards your message to my <span className="font-semibold text-primary">Telegram</span>. Powered by AI. No delays.
+  </p>
+</div>
+
         </div>
       </div>
 
